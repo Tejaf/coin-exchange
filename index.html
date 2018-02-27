@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Coin Exchange</title>
+</head>
+<body>
+    <div class="container">
+            <header>
+                    <h1 class="xlm">XLM</h1>
+                    <div class="arrows">
+                        <p class="arrow-right"><i class="fa fa-long-arrow-right"></i></p>
+                        <p class="arrow-left"><i class="fa fa-long-arrow-left"></i></p>          
+                    </div>
+                    <h1 class="ngn">NGN</h1>
+                </header>
+            
+                <section class="currency-exchange">
+                    <h4 class="title">Select currency and amount</h4>
+                    <div class="exchange">
+                        <div class="spend-box">
+                            <p>You spend</p>
+                            <div class="exch-spend">
+                                <select name="you-spend" id="" class="exch-select">
+                                    <option value="XLM">XLM</option>
+                                </select>                                 
+                                 <input class="exch-input" type="text" placeholder="100">
+                            </div> 
+                        </div>
+                        <div class="receive-box">
+                                <p>You Receive</p>
+                                <div class="exch-receive">
+                                            <select name="you-receive" id="" class="exch-select">
+                                                <option value="NGN">NGN</option>
+                                            </select>
+                                     <input class="exch-input" type="text" placeholder="11400">
+                                </div> 
+                        </div>
+                    </div>
+                    <div class="exch-information">
+                        <p>Rate: 1 XLM = <span>114</span> NGN</p>
+                        <p>Transfer Fee: NGN <span>1000</span></p>
+                        <p>Total spend: XLM <span>100</span></p>
+                        <p>Total receive: NGN <span>10400</span></p>
+                    </div>
+                </section>
+            
+                <section class="payment-details">
+                    <h4 class="title">Payment Details</h4>
+                    <div class="details-info">
+                        <select name="" id="" class="select-bank">
+                            <option value="default">Select your bank</option>
+                        </select>
+                        
+                        <div class="account-lookup">
+                            <input type="text" placeholder="Account Number">
+                            <button class="btn">Look Up</button>
+                        </div>
+                        <input type="text" class="account-info" placeholder="Account Information">
+                        <div class="memo">
+                            <input type="text" placeholder="Memo">
+                            <button class="btn">Copy</button>
+                        </div>
+                        <div class="address">
+                            <input type="text" placeholder="Address">
+                            <button class="btn">Copy</button>
+                        </div>
+                    </div>
+                    <button class="btn btn-exchange">Exchange</button>
+            </section>
+    </div>
+</body>
+</html>
