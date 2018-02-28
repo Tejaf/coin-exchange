@@ -81,7 +81,7 @@ p.arrow-right {
 }
 
 p.arrow-left {
-    margin-top: -12px;
+    margin-top: -6px;
 }
 
 section {
@@ -155,7 +155,6 @@ input {
     font-size: 0.8rem;
     color: var(--primaryColor);
     font-weight: 700;
-
 }
 
 .exch-input {
@@ -384,14 +383,12 @@ select{
      #homepage > div > header {
          padding: 8rem 60px;
      }
-    
  }
 
 
  /* Media Screen >= 1300 */
 
  @media only screen and (min-width: 1024px) {
-
     .container {
         width: 70%;
         padding-top: 70px;
@@ -517,5 +514,5 @@ select{
 @keyframes slide-right-in {
     0% { transform: translateX(100%); }
     100% { transform: translateX(0%); }
+   
 }
-
