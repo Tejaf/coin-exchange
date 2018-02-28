@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Coin Exchange</title>
+</head>
+<body>
+
+    <div id="homepage">
+        <div class="container">
+            <header id="xlm-ngn">
+                <h1>XLM</h1>
+                <div class="arrows">
+                    <p class="arrow-right"><i class="fa fa-long-arrow-right"></i></p>
+                    <p class="arrow-left"><i class="fa fa-long-arrow-left"></i></p>
+                </div>
+                <h1>NGN</h1>
+            </header>
+            <header id="ngn-xlm">
+                <h1>NGN</h1>
+                <div class="arrows">
+                    <p class="arrow-right"><i class="fa fa-long-arrow-right"></i></p>
+                    <p class="arrow-left"><i class="fa fa-long-arrow-left"></i></p>
+                </div>
+                <h1>XLM</h1>
+            </header>
+
+        </div>
+    </div>
+
+
+    <div id="xlm-ngn-page">
+        <div class="container" >
+            <header>
+                <h1 class="xlm" id="xlm">XLM</h1>
+                <div class="arrows">
+                    <p class="arrow-right"><i class="fa fa-long-arrow-right"></i></p>
+                    <p class="arrow-left"><i class="fa fa-long-arrow-left"></i></p>
+                </div>
+                <h1 class="ngn">NGN</h1>
+            </header>
+
+            <section class="currency-exchange">
+                <h4 class="title">Select currency and amount</h4>
+                <div class="exchange">
+                    <div class="spend-box">
+                        <p>You spend</p>
+                        <div class="exch-spend">
+                            <select name="you-spend" id="" class="exch-select">
+                                <option value="XLM">XLM</option>
+                            </select>
+                            <input class="exch-input" type="text" placeholder="Enter Amount">
+                        </div>
+                    </div>
+                    <div class="receive-box">
+                        <p>You Receive</p>
+                        <div class="exch-receive">
+                            <select name="you-receive" id="" class="exch-select">
+                                <option value="NGN">NGN</option>
+                            </select>
+                            <input class="exch-input" type="text" placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="exch-information">
+                    <p>Rate: 1 XLM = <span>114</span> NGN</p>
+                    <p>Transfer Fee: NGN <span>1000</span></p>
+                    <p>Total spend: XLM <span>100</span></p>
+                    <p>Total receive: NGN <span>10400</span></p>
+                </div>
+            </section>
+
+            <section class="payment-details">
+                <h4 class="title">Payment Details</h4>
+                <div class="details-info">
+                    <select name="" id="" class="select-bank">
+                        <option value="">Please Select Bank</option>
+                        <option value="000014">Access Bank</option>
+                        <option value="000009">CitiBank</option>
+                        <option value="000005">Diamond Bank</option>
+                        <option value="000010">Ecobank</option>
+                        <option value="000019">Enterprise Bank</option>
+                        <option value="000003">FCMB</option>
+                        <option value="000007">Fidelity Bank</option>
+                        <option value="000016">First Bank</option>
+                        <option value="000013">GTBank</option>
+                        <option value="000020">Heritage</option>
+                        <option value="000002">Keystone Bank</option>
+                        <option value="000008">Skye Bank</option>
+                        <option value="000012">Stanbic</option>
+                        <option value="000021">Standard Chartered</option>
+                        <option value="000001">Sterling Bank</option>
+                        <option value="000004">UBA</option>
+                        <option value="000018">Union Bank</option>
+                        <option value="000011">Unity Bank</option>
+                        <option value="000017">Wema Bank</option>
+                        <option value="000015">Zenith Bank</option>
+                    </select>
+
+                    <div class="account-lookup">
+                        <input type="text" placeholder="Account Number">
+                        <button class="btn">Look Up</button>
+                    </div>
+                    <input type="text" class="account-info" placeholder="Account Information">
+                    <div class="memo">
+                        <input type="text" placeholder="Memo">
+                        <button class="btn">Copy</button>
+                    </div>
+                    <div class="address">
+                        <input type="text" placeholder="Address">
+                        <button class="btn">Copy</button>
+                    </div>
+                </div>
+                <button class="btn btn-exchange">Exchange</button>
+            </section>
+        </div>
+    </div>
+
+    <div id="ngn-xlm-page">
+        <div class="container">
+            <header>
+                <h1 class="ngn">NGN</h1>
+                <div class="arrows">
+                    <p class="arrow-right"><i class="fa fa-long-arrow-right"></i></p>
+                    <p class="arrow-left"><i class="fa fa-long-arrow-left"></i></p>
+                </div>
+                <h1 class="xlm">XLM</h1>
+            </header>
+
+            <section class="currency-exchange">
+                <h4 class="title">Select currency and amount</h4>
+                <div class="exchange">
+                    <div class="spend-box">
+                        <p>You spend</p>
+                        <div class="exch-spend">
+                            <select name="you-spend" id="" class="exch-select">
+                                <option value="NGN">NGN</option>
+                            </select>
+                            <input class="exch-input" type="text" placeholder="Enter Amount">
+                        </div>
+                    </div>
+                    <div class="receive-box">
+                        <p>You Receive</p>
+                        <div class="exch-receive">
+                            <select name="you-receive" id="" class="exch-select">
+                                <option value="XLM">XLM</option>
+                            </select>
+                            <input class="exch-input" type="text" placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="exch-information">
+                    <p>Rate: 1 XLM = <span>114</span> NGN</p>
+                    <p>Transfer Fee: NGN <span>1000</span></p>
+                    <p>Total spend: XLM <span>100</span></p>
+                    <p>Total receive: NGN <span>10400</span></p>
+                </div>
+            </section>
+
+            <section class="payment-details">
+                <h4 class="title">Payment Details</h4>
+                <div class="details-info">
+                    <select name="" id="" class="select-bank">
+                        <option value="">Please Select Bank</option>
+                        <option value="000014">Access Bank</option>
+                        <option value="000009">CitiBank</option>
+                        <option value="000005">Diamond Bank</option>
+                        <option value="000010">Ecobank</option>
+                        <option value="000019">Enterprise Bank</option>
+                        <option value="000003">FCMB</option>
+                        <option value="000007">Fidelity Bank</option>
+                        <option value="000016">First Bank</option>
+                        <option value="000013">GTBank</option>
+                        <option value="000020">Heritage</option>
+                        <option value="000002">Keystone Bank</option>
+                        <option value="000008">Skye Bank</option>
+                        <option value="000012">Stanbic</option>
+                        <option value="000021">Standard Chartered</option>
+                        <option value="000001">Sterling Bank</option>
+                        <option value="000004">UBA</option>
+                        <option value="000018">Union Bank</option>
+                        <option value="000011">Unity Bank</option>
+                        <option value="000017">Wema Bank</option>
+                        <option value="000015">Zenith Bank</option>
+                    </select>
+
+                    <div class="account-lookup">
+                        <input type="text" placeholder="Account Number">
+                        <button class="btn">Look Up</button>
+                    </div>
+                    <input type="text" class="account-info" placeholder="Account Information">
+                    <div class="memo">
+                        <input type="text" placeholder="Memo">
+                        <button class="btn">Copy</button>
+                    </div>
+                    <div class="address">
+                        <input type="text" placeholder="Address">
+                        <button class="btn">Copy</button>
+                    </div>
+                </div>
+                <button class="btn btn-exchange">Exchange</button>
+            </section>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            let homepage = $("#homepage"),
+                xlm_ngn = $("#xlm-ngn"),
+                ngn_xlm = $("#ngn-xlm"),
+                xlm_ngn_page = $("#xlm-ngn-page"),
+                ngn_xlm_page = $("#ngn-xlm-page"),
+                xlm = $(".xlm"),
+                ngn = $(".ngn");
+
+            xlm_ngn.click(function () {
+              ngn_xlm_page.removeClass();
+              homepage.removeClass().addClass("slide-left-out");
+              xlm_ngn_page.removeClass().addClass("body slide-right-in");
+            });
+
+          xlm.click(function () {
+            ngn_xlm_page.removeClass();
+            xlm_ngn_page.removeClass().addClass("body slide-right-out");
+            homepage.removeClass().addClass("body slide-left-in");
+
+          });
+
+          ngn_xlm.click(function () {
+            xlm_ngn_page.removeClass();
+            homepage.removeClass().addClass("slide-right-out");
+            ngn_xlm_page.removeClass().addClass("body slide-left-in");
+
+          });
+
+          ngn.click(function () {
+            xlm_ngn_page.removeClass();
+            ngn_xlm_page.removeClass().addClass("body slide-left-out");
+            homepage.removeClass().addClass("body slide-right-in");
+          });
+
+
+        })
+    </script>
+</body>
+</html>
